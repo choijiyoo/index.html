@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>name_test</title>
+	<!-- 합쳐지고 최소화된 최신 CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- 부가적인 테마 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- 폰트 어썸 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--my css 외부 스타일시트로 넣기 -->
+    <link rel="stylesheet" href="css/mystyle.css">
+
+	<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- animate연결 -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- 45.애니메이트 스크롤 플러그인 연결 -->
+    <script src="js/animatescroll.min.js"></script>
+
+    <script src="//code.jquery.com/jquery.min.js"></script>
+
+	<!-- myscript 추가 -->
+	<script src="js/myscript.js"></script>
+
+</head>
+<body>
+	<!-- 전체를 다 감싸는 .container-fluid -->
+	<div class="container-fluid" id="top">
+		<!-- 네비게이션바 생성 -->
+		<nav class="navbar navbar-default">
+        	<div class="container-fluid nav-padding">
+            	<!-- Brand and toggle get grouped for better mobile display -->
+            	<div class="navbar-header">
+                	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    	<span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                    	<img src="img/headlogo.png" alt="">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                    	<li class="active"><a onclick="$('#lookbooks').animatescroll();" href="#lookbooks">LOOKBOOKS</a>
+                    		<!-- <ul class="drop_menu">
+                    			<li><a href="#">MEN'S LOOK</a></li>
+                    			<li><a href="#">WOMEN'S LOOK</a></li>
+                    		</ul> -->
+                    	</li>
+                        <li><a onclick="$('#item').animatescroll();" href="#item">ITEM</a></li>
+                        <li><a onclick="$('#onlinestore').animatescroll();" href="#onlinestore">ONLINE STORE</a></li>
+                        <li><a onclick="$('#shop').animatescroll();" href="#shop">SHOP</a></li>
+                        <li><a onclick="$('#stockist').animatescroll();" href="#stockist">STOCKIST</a></li>
+                        <li><a onclick="$('#instagram').animatescroll();" href="#instagram">INSTAGRAM</a></li>
+                        <li><a onclick="$('#news').animatescroll();" href="#news">NEWS</a></li>
+                        <li><a onclick="$('#contact').animatescroll();" href="#contact">CONTACT</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /navbar .container-fluid -->
+        </nav><!-- navbar end -->
+		<!-- 캐로셀 추가 -->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        	<!-- Indicators -->
+        	<ol class="carousel-indicators">
+            	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            	<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            	<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            	<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        	</ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+            	<div class="item active">
+                	<img src="img/19saday.jpg" alt="...">
+                	<div class="carousel-caption">
+                	<!-- ... -->
+            	</div>
+            </div>
+                <div class="item">
+                    <img src="img/aday12s.jpg" alt="...">
+                    <div class="carousel-caption">
+                    <!-- ... -->
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/aday7s.jpg" alt="...">
+                    <div class="carousel-caption">
+                    <!-- ... -->
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/shoptop.jpg" alt="...">
+                    <div class="carousel-caption">
+                    <!-- ... -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            	<span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+        	</a>
+        </div><!-- carousel -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div><!-- class="container-fluid" id="top" -->
+</body>
+</html>
